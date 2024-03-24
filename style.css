@@ -1,0 +1,71 @@
+
+.class-for-index{
+    text-align: center;
+    color: white;
+    font-size: 40;
+}
+.class-for-app {
+    background-color: rgb(196, 200, 255);
+    color:  lab(67 -20.69 6.76);
+    text-align: center;
+    font-size:25px;
+    
+}
+.class-for-iframes{
+    border: 2px;
+    border-color: #f43636b3;
+    border-style:dashed
+}
+.class-for-b1{
+background-color: lab(67 -20.69 6.76);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;}
+
+.class-for-b2{
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  @media (max-width: 750px) {
+      #background-video { display: none; }
+      body {
+        background: url("file:///C:/Users/kenjs/Downloads/pexels_videos_3931%20(1080p).mp4") no-repeat;
+        background-size: cover;
+      }
+  }
+  .class-for-abtus{
+    background-color: rgb(196, 200, 255);
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    img{
+        width: 400px;;
+    }
+  }
+  .class-for-contactus{
+    background-color: rgb(196, 200, 255);
+    color: black;
+    text-align: center;
+    font-size: 25px;
+  }
+  
